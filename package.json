@@ -1,0 +1,35 @@
+{
+  "name": "storybook-addon-codepen",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonniespratley/storybook-addon-codepen.git"
+  },
+  "author": "Jonnie Spratley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonniespratley/storybook-addon-codepen/issues"
+  },
+  "keywords": [
+    "addon",
+    "codepen",
+    "storybook"
+  ],
+  "homepage": "https://github.com/jonniespratley/storybook-addon-codepen#readme",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "dependencies": {
+    "@storybook/addons": "^4.0.0-alpha.4",
+    "babel-runtime": "^6.26.0",
+    "marked": "^0.3.19",
+    "prop-types": "^15.6.1",
+    "util-deprecate": "^1.0.2"
+  },
+  "main": "dist/index.js",
+  "jsnext:main": "src/index.js"
+}
