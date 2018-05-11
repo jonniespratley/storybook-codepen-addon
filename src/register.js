@@ -3,11 +3,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import addons from '@storybook/addons';
 import _ from 'lodash';
-import ExampleCode from './src/ExampleCode';
-import PropTypes from './src/PropTypes';
-import PanelToggles from './src/PanelToggles';
-import ChildComponents from './src/ChildComponents';
-import packageJson from './package.json';
+import ExampleCode from './ExampleCode';
+import PropTypes from './PropTypes';
+import PanelToggles from './PanelToggles';
+import ChildComponents from './ChildComponents';
+import packageJson from '.../package.json';
 
 class CodePanel extends React.Component {
 	constructor(...args) {
